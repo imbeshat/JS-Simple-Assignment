@@ -13,8 +13,8 @@
 			}
 			.circle {
 				position: absolute;
-				height: 15px;
-				width: 15px;
+				height: 20px;
+				width: 20px;
 				border-radius: 50%;
 				background-color: #fff;
 			}
@@ -31,7 +31,6 @@
 				console.log(elementDiv);
 				elementDiv.style.left = `${e.clientX}px`;
 				elementDiv.style.top = `${e.clientY}px`;
-				elementDiv.style.offset = `bottom right 15px`;
 				elementDiv.style.backgroundColor = "rgba(" + randomColor() + "," + randomColor() + "," + randomColor() + "\)";
 				console.log(randomColor());
 				document.body.appendChild(elementDiv);
