@@ -29,8 +29,8 @@
 				let elementDiv = document.createElement("div");
 				elementDiv.classList.add("circle");
 				console.log(elementDiv);
-				elementDiv.style.left = `${e.clientX}px`;
-				elementDiv.style.top = `${e.clientY}px`;
+				elementDiv.style.left = `${e.clientX - 10}px`;
+				elementDiv.style.top = `${e.clientY - 15}px`;
 				elementDiv.style.backgroundColor = "rgba(" + randomColor() + "," + randomColor() + "," + randomColor() + "\)";
 				console.log(randomColor());
 				document.body.appendChild(elementDiv);
