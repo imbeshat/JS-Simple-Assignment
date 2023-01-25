@@ -1,4 +1,4 @@
-# JS-Simple-Assignment
+# Project14-Circle-Generator-JS
 ## Created a Web page and when clicked on it a circle is formed on the page with random colors.
 
 ### Live link: https://create-circle-onclick.netlify.app/
